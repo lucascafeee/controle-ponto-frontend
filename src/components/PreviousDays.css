@@ -1,0 +1,31 @@
+.previous-days {
+  width: 80%;
+  margin-top: 2rem;
+  background-color: #fff;
+  color: #333;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.previous-days h2 {
+  font-size: 2rem;
+  margin: 1.5rem 0;
+  text-align: center;
+  font-weight: 600;
+}
+
+.previous-days ul {
+  list-style: none;
+  padding: 0;
+}
+
+.previous-days li {
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+}
+
+.previous-days li:last-child {
+  border-bottom: none;
+}
